@@ -18,3 +18,21 @@ This project implements a machine learning pipeline to classify human physical a
   - Upstairs  
   - Downstairs
 
+
+Features
+
+- Preprocessing using sliding window segmentation
+- Statistical feature extraction: mean, std, min, max, etc.
+- Label encoding and feature scaling
+- Trained on multiple models:
+  - Random Forest
+  - SVM
+  - K-Nearest Neighbors
+  - Logistic Regression
+  - Naive Bayes
+  - MLP (Neural Network)
+- Accuracy comparison and result visualization using Seaborn
+- Models saved using `joblib`
+- Ready for deployment or real-time prediction
+
+
